@@ -1,0 +1,40 @@
+Portafolio Personal - Estilo CS2 (PFO1)
+
+Descripción del Proyecto 
+Este proyecto es una Landing Page de portafolio personal desarrollada para la Práctica Formativa Obligatoria 1. 
+El diseño está inspirado en la interfaz de usuario (UI) de Counter-Strike, utilizando una estética de "HUD" táctico para presentar mis habilidades 
+de desarrollador y mi experiencia en la agencia ROS.
+
+Checklist de Requerimientos 
+
+- Estructura del Proyecto:**
+[x] Archivo "index.html" en la raíz. 
+[x] Carpeta "css" con "styles.css". 
+[x] Carpeta "img" para recursos. 
+[x] Archivo "README.md" con descripción y checklist. 
+
+-Uso de Google Fonts:
+[x] Enlace a Google Fonts en el "head". 
+[x] Tipografía aplicada en el sitio. 
+¿Por qué elegiste esa fuente? 
+Elegí Orbitron y Roboto porque evocan la estética tecnológica y militar de los menús de CS2, manteniendo la legibilidad y un aspecto profesional.
+
+HTML:
+[x] DOCTYPE y lang="es". 
+[x] Metaetiquetas charset y viewport. 
+[x] Título descriptivo y vínculos correctos. 
+[x] Secciones: sobre-mi, tarjetas, habilidades, contacto y películas. 
+[x] Al menos 4 comentarios explicativos en el código. 
+
+-CSS:
+[x] Uso de selectores por clase e IDs. 
+[x] Layout organizado con Grid/Flexbox en la sección de tarjetas. 
+¿Qué ventajas encontraste al utilizar Grid/Flexbox?
+Crear estructuras responsivas de forma mucho más sencilla y alineada con la estética de paneles de la interfaz del juego.
+[x] Unidades relativas (%, rem) para responsividad. 
+[x] Animación/transición implementada (efecto hover en botón ACCEPT). 
+¿Qué animación implementaste?
+Implementé una transición de escala y sombra en el botón de contacto para simular el feedback visual de "Match Found" del juego.
+
+URL de Publicación:
+GitHub Pages: 

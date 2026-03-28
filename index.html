@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+    <!-- Configuración técnica de la página, la parte que el navegador lee pero el usuario no ve directamente  -->
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Enzo Giangreco | CS2 Dev Portfolio</title> 
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header principal con nombre del portfolio -->
+    <!-- Mejora futura: agregar logo o animación tipo HUD estilo CS2 -->
+    <header>
+        <h1>ENZO GIANGRECO</h1> 
+    </header>
+    <!-- Navegación interna del sitio -->
+    <!-- parte del código es tu barra de navegación. Su función es permitir que el usuario se mueva por tu portafolio rápidamente.-->
+    <!-- Mejora futura: agregar menú responsive (hamburguesa) para mobile -->
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Inventory (Sobre mí)</a></li>
+            <li><a href="#tarjetas">Matches (Proyectos)</a></li>
+            <li><a href="#contacto">Callout (Contacto)</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- Sección de presentación personal -->
+        <section id="sobre-mi">
+            <h2>User Statistics</h2>
+            <div class="profile-container">
+                <img src="assets/avatar.png" alt="Foto de perfil estilo agente de CS2"> 
+                <p>
+                    Co-founder de ROS Agency. Especialista en Marketing y Desarrollo.
+                    Mi misión es ejecutar proyectos con la precisión de un headshot,
+                    siempre buscando la optimización táctica en cada línea de código.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección de proyectos -->
+        <!-- Mejora futura: hacer las cards dinámicas con JavaScript o consumir desde una API -->
+        <section id="tarjetas">
+            <h2>Active Missions</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>ROS Marketing</h3>
+                    <img src="assets/rosAgency.png" alt="Proyecto ROS">
+                    <p>Estrategia y creatividad digital.</p>
+                </div>
+                <div class="card">
+                    <h3>TDS</h3>
+                    <img src="assets/tds.png" alt="Proyecto Dev">
+                    <p>Tecnicatura Superior en Desarrollo de Software</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tabla de habilidades -->
+        <!-- Cuadro de mando que muestra qué tan "pro" eres en cada tecnología, usando un formato de tabla para que se vea limpio y profesional.-->
+        <!-- Mejora futura: reemplazar barras de texto por barras visuales con CSS o JS -->
+        <section id="habilidades">
+            <h2>Player Stats & Loadout</h2>
+            <table class="stats-table">
+                <thead>
+                    <tr>
+                        <th>Skill / Technology</th>
+                        <th>Mastery Level</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML5 / CSS3</td>
+                        <td class="mastery">|||||||||| 95%</td>
+                        <td class="status-equipped">EQUIPPED</td>
+                    </tr>
+                    <tr>
+                        <td>Marketing Strategy (ROS)</td>
+                        <td class="mastery">|||||||||| 90%</td>
+                        <td class="status-equipped">EQUIPPED</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript / React</td>
+                        <td class="mastery">|||||| 60%</td>
+                        <td class="status-learning">UPLOADING...</td>
+                    </tr>
+                    <tr>
+                        <td>Software Testing</td>
+                        <td class="mastery">|||| 40%</td>
+                        <td class="status-learning">LEARNING</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Sección de películas favoritas -->
+        <section id="peliculas">
+            <h2>Top Tier Movies</h2>
+            <div class="movies-grid"> 
+                <article class="card card-movie">
+                    <h3>El Padrino</h3>
+                    <img src="assets/elPadrino.png" alt="Poster El Padrino">
+                    <p>Una oferta que no podrán rechazar. Estrategia pura.</p>
+                </article>
+
+                <article class="card card-movie">
+                    <h3>Batman: El Caballero de La Noche</h3>
+                    <img src="assets/batman.png" alt="Poster Batman">
+                    <p>El caos es como la gravedad, solo necesita un empujoncito.</p>
+                </article>
+
+                <article class="card card-movie">
+                    <h3>Interstellar</h3>
+                    <img src="assets/interestellar.png" alt="Poster Interstellar">
+                    <p>El amor es lo único que trasciende las dimensiones.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Formulario de contacto -->
+        <!-- Formulario de contacto, la herramienta que permite a los usuarios enviarte un mensaje directo. -->
+        <section id="contacto">
+            <h2>Send a Radio Message</h2>
+            <form action="#"> 
+                <input type="text" placeholder="Nombre" required>
+                <input type="text" placeholder="Apellido" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Teléfono" required>
+                <button type="submit" class="accept-btn">ACCEPT MATCH</button> 
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer del sitio -->
+<footer>
+    <p>Connect with me on: 
+        <a href="https://steamcommunity.com/" target="_blank" class="social-link">Steam</a> / 
+        <a href="https://github.com/enluuca" target="_blank" class="social-link">GitHub</a>
+    </p>
+</footer>
+
+</body>
+</html>
