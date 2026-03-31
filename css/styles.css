@@ -155,6 +155,52 @@ h2 {
     color: #b0b3b8;
 }
 
+/* Contenedor tipo consola de comandos */
+.console-log {
+    background: #0d0f12;
+    border: 1px solid #3d4149;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace; /* Fuente de terminal */
+    border-radius: 4px;
+    box-shadow: inset 0 0 10px #000;
+}
+
+.log-entry {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    border-left: 2px solid transparent;
+    padding-left: 10px;
+    transition: background 0.3s;
+}
+
+.log-entry:hover {
+    background: rgba(222, 155, 53, 0.1);
+    border-left: 2px solid #de9b35;
+}
+
+.log-status {
+    color: #4CAF50; /* Verde éxito */
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.log-status-progress {
+    color: #de9b35; /* Naranja progreso */
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.log-date {
+    color: #6a6e75;
+    margin-right: 15px;
+}
+
+.log-text {
+    color: #eceff1;
+}
+
 /* Sección de Películas */
 .movies-grid {
     display: flex;
